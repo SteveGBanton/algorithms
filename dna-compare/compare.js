@@ -1,10 +1,7 @@
-// const frs = 'ACCGGTCGAGTGCGCGGAAGCCGGCCGAA';
-// const sec = 'GTCGTTCGGAATGCCGTTGCTCTGTAAA';
-// const solve = 'GTCGTCGGAAGCCGGCCGAA';
-
 // Sample data
 const firstSample = 'GTCGTTCGGAATGCCGTTGCTCTGTAAA';
 const secondSample = 'ACCGGTCGAGTGCGCGGAAGCCGGCCGAA';
+// Solution LCS: 'GTCGTCGGAAGCCGGCCGAA';
 
 // Run algorithm & output to console.
 console.log(compare(firstSample, secondSample));
